@@ -41,3 +41,11 @@ The system translates the question into an SQL query using **LLM** and retrieves
 
 ## 📁 Project Structure
 
+4_sqldb_tshirts/
+├── main.py # Streamlit app entry point
+├── langchain_helper.py # LangChain-based logic and SQL generation
+├── few_shots.py # Few-shot learning prompt templates
+├── requirements.txt # Python dependencies
+├── .env # API keys and environment variables
+└── database/
+└── db_creation_atliq_t_shirts.sql # SQL script to create MySQL DB
