@@ -41,7 +41,7 @@ AtliQ Tees is a t-shirt store management system where store managers can ask que
 ### 1. Clone the Repository
 ```bash
 https://github.com/Abdulla-1234/langchain_genai_retail.git
-cd atliq-tees-nlp-sql
+cd langchain_genai_retail
 ```
 
 ### 2. Install Dependencies
@@ -80,7 +80,7 @@ Try asking these questions in the application:
 ## 📁 Project Structure
 
 ```
-atliq-tees-nlp-sql/
+langchain_genai_retail/
 ├── main.py                 # Main Streamlit application
 ├── langchain_helper.py     # LangChain implementation
 ├── few_shots.py           # Few-shot learning prompts
