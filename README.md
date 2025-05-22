@@ -40,7 +40,7 @@ AtliQ Tees is a t-shirt store management system where store managers can ask que
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/atliq-tees-nlp-sql.git
+https://github.com/Abdulla-1234/langchain_genai_retail.git
 cd atliq-tees-nlp-sql
 ```
 
@@ -106,20 +106,6 @@ Ensure your MySQL server is running and accessible. Update database connection p
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🐛 Issues
-
-If you encounter any issues or have suggestions, please [open an issue](https://github.com/yourusername/atliq-tees-nlp-sql/issues).
-
-## 📞 Support
-
-For support and questions:
-- Create an issue in this repository
-- Contact: [your.email@example.com]
 
 ## 🎉 Acknowledgments
 
