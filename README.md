@@ -113,6 +113,13 @@ Ensure your MySQL server is running and accessible. Update database connection p
 - Powered by [Google Palm](https://ai.google.dev/)
 - UI created with [Streamlit](https://streamlit.io/)
 
+## 📚 Learning Resources
+
+This project was developed by following the comprehensive LangChain tutorial series from **Codebasics**:
+- **Tutorial Repository**: [https://github.com/codebasics/langchain](https://github.com/codebasics/langchain)
+  
 ---
 
 ⭐ **Star this repository if you find it helpful!**
+
+
