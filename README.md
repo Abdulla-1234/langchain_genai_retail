@@ -1,51 +1,132 @@
-# 🧠 AtliQ Tees: Natural Language to SQL with LLM
-
-An end-to-end LLM-powered application that allows users to interact with a MySQL database using natural language. Built using **Google PaLM**, **LangChain**, and **Streamlit**, this system empowers store managers to ask questions about inventory, sales, and discounts without needing SQL knowledge.
+# AtliQ Tees: Natural Language to SQL Database System
 
 ![AtliQ Tees](atliq_tees.png)
 
----
+An end-to-end LLM project that enables natural language interactions with a MySQL database. This system converts user questions in plain English into SQL queries and executes them against a t-shirt store's inventory database.
 
-## 🚀 Project Overview
+## 🎯 Overview
 
-**AtliQ Tees** is a T-shirt store offering brands like **Adidas**, **Nike**, **Van Heusen**, and **Levi's**. All product data — including inventory, sales, and discounts — is stored in a MySQL database.
+AtliQ Tees is a t-shirt store management system where store managers can ask questions about inventory, sales, and discounts in natural language. The system intelligently generates and executes SQL queries to provide accurate answers.
 
-This project builds an intelligent interface where a store manager can ask:
+**Example Queries:**
+- "How many white color Adidas t-shirts do we have left in stock?"
+- "How much sales will we generate if we sell all extra-small size t-shirts after applying discounts?"
 
-> “How many white Adidas t-shirts do we have left in stock?”
+## 🚀 Features
 
-The system translates the question into an SQL query using **LLM** and retrieves the accurate answer from the database.
+- **Natural Language Processing**: Ask questions in plain English
+- **Intelligent SQL Generation**: Automatically converts questions to accurate SQL queries
+- **Real-time Database Interaction**: Direct connection to MySQL database
+- **User-friendly Interface**: Clean Streamlit web application
+- **Multi-brand Support**: Handles Adidas, Nike, Van Heusen, and Levi's inventory
 
----
+## 🛠️ Tech Stack
 
-## 🧩 Tech Stack
-
-- **LLM**: Google PaLM (via Makersuite API)
+- **LLM**: Google Palm
 - **Embeddings**: Hugging Face
 - **Frontend**: Streamlit
-- **Backend Framework**: LangChain
+- **Framework**: LangChain
 - **Vector Store**: ChromaDB
 - **Database**: MySQL
-- **Learning Technique**: Few-shot prompting
+- **Learning Approach**: Few-shot learning
 
----
+## 📋 Prerequisites
 
-## 📸 Sample Use Cases
+- Python 3.8+
+- MySQL Server
+- Google API Key (from [Google MakerSuite](https://makersuite.google.com))
 
-- 🧾 *"How many total t-shirts are left in stock?"*
-- 👕 *"How many Nike XS white t-shirts are available?"*
-- 💰 *"What’s the inventory value for all S-size t-shirts?"*
-- 📉 *"What’s the total sales amount if all small-size Adidas t-shirts are sold after discounts?"*
+## ⚡ Quick Start
 
----
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/atliq-tees-nlp-sql.git
+cd atliq-tees-nlp-sql
+```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Environment Setup
+Create a `.env` file in the project root:
+```bash
+GOOGLE_API_KEY="your_api_key_here"
+```
+
+### 4. Database Setup
+Run the SQL script in your MySQL Workbench:
+```bash
+database/db_creation_atliq_t_shirts.sql
+```
+
+### 5. Launch the Application
+```bash
+streamlit run main.py
+```
+
+The web application will open in your browser at `http://localhost:8501`
+
+## 💬 Sample Questions
+
+Try asking these questions in the application:
+
+- "How many total t-shirts are left in stock?"
+- "How many t-shirts do we have for Nike in XS size and white color?"
+- "What's the total price of inventory for all S-size t-shirts?"
+- "How much sales will we generate if we sell all small size Adidas shirts after discounts?"
 
 ## 📁 Project Structure
 
-4_sqldb_tshirts/
-├── main.py # Streamlit app entry point
-├── langchain_helper.py # LangChain-based logic and SQL generation
-├── few_shots.py # Few-shot learning prompt templates
-├── requirements.txt # Python dependencies
-├── .env # API keys and environment variables
-└── database/
-└── db_creation_atliq_t_shirts.sql # SQL script to create MySQL DB
+```
+atliq-tees-nlp-sql/
+├── main.py                 # Main Streamlit application
+├── langchain_helper.py     # LangChain implementation
+├── few_shots.py           # Few-shot learning prompts
+├── requirements.txt       # Python dependencies
+├── .env                   # Environment variables
+├── database/
+│   └── db_creation_atliq_t_shirts.sql
+└── README.md
+```
+
+## 🔧 Configuration
+
+### Environment Variables
+- `GOOGLE_API_KEY`: Your Google Palm API key
+
+### Database Configuration
+Ensure your MySQL server is running and accessible. Update database connection parameters in `langchain_helper.py` if needed.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🐛 Issues
+
+If you encounter any issues or have suggestions, please [open an issue](https://github.com/yourusername/atliq-tees-nlp-sql/issues).
+
+## 📞 Support
+
+For support and questions:
+- Create an issue in this repository
+- Contact: [your.email@example.com]
+
+## 🎉 Acknowledgments
+
+- Built with [LangChain](https://langchain.com/)
+- Powered by [Google Palm](https://ai.google.dev/)
+- UI created with [Streamlit](https://streamlit.io/)
+
+---
+
+⭐ **Star this repository if you find it helpful!**
