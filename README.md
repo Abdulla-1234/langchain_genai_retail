@@ -1,4 +1,4 @@
-![architecture](https://github.com/user-attachments/assets/4d423e2f-8de9-4b4f-88c3-22a04d67f670)# AtliQ Tees: Natural Language to SQL Database System
+# AtliQ Tees: Natural Language to SQL Database System
 
 ![AtliQ Tees](atliq_tees.png)
 
