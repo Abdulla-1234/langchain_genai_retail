@@ -31,7 +31,7 @@ AtliQ Tees is a t-shirt store management system where store managers can ask que
 - **Learning Approach**: Few-shot learning
 
 ## 🏗️ Architecture 
-<img src="https://github.com/user-attachments/assets/e91d4597-5ab1-4906-a404-a1220b949e06" alt="System Architecture Diagram" width="700"/>
+<img src="https://github.com/user-attachments/assets/e91d4597-5ab1-4906-a404-a1220b949e06" alt="System Architecture Diagram" width="600"/>
 
 ## 📋 Prerequisites
 
