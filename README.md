@@ -85,7 +85,7 @@ Try asking these questions in the application:
 ```
 langchain_genai_retail/
 ├── main.py                 # Main Streamlit application
-├── langchain_helper.py     # LangChain implementation
+├── langchain_exp.py     # LangChain implementation
 ├── few_shots.py           # Few-shot learning prompts
 ├── requirements.txt       # Python dependencies
 ├── .env                   # Environment variables
@@ -100,7 +100,7 @@ langchain_genai_retail/
 - `GOOGLE_API_KEY`: Your Google Palm API key
 
 ### Database Configuration
-Ensure your MySQL server is running and accessible. Update database connection parameters in `langchain_helper.py` if needed.
+Ensure your MySQL server is running and accessible. Update database connection parameters in `langchain_exp.py` if needed.
 
 ## Contributing
 
