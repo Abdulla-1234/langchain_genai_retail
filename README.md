@@ -71,7 +71,7 @@ streamlit run main.py
 
 The web application will open in your browser at `http://localhost:8501`
 
-## 💬 Sample Questions
+## Sample Questions
 
 Try asking these questions in the application:
 
