@@ -1,4 +1,4 @@
-# AtliQ Tees: Natural Language to SQL Database System
+![architecture](https://github.com/user-attachments/assets/4d423e2f-8de9-4b4f-88c3-22a04d67f670)# AtliQ Tees: Natural Language to SQL Database System
 
 ![AtliQ Tees](atliq_tees.png)
 
@@ -29,6 +29,9 @@ AtliQ Tees is a t-shirt store management system where store managers can ask que
 - **Vector Store**: ChromaDB
 - **Database**: MySQL
 - **Learning Approach**: Few-shot learning
+
+## Architecture 
+![architecture](https://github.com/user-attachments/assets/e91d4597-5ab1-4906-a404-a1220b949e06)
 
 ## 📋 Prerequisites
 
