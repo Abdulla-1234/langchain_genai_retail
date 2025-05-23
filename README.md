@@ -4,7 +4,7 @@
 
 An end-to-end LLM project that enables natural language interactions with a MySQL database. This system converts user questions in plain English into SQL queries and executes them against a t-shirt store's inventory database.
 
-## 🎯 Overview
+## Overview
 
 AtliQ Tees is a t-shirt store management system where store managers can ask questions about inventory, sales, and discounts in natural language. The system intelligently generates and executes SQL queries to provide accurate answers.
 
@@ -12,7 +12,7 @@ AtliQ Tees is a t-shirt store management system where store managers can ask que
 - "How many white color Adidas t-shirts do we have left in stock?"
 - "How much sales will we generate if we sell all extra-small size t-shirts after applying discounts?"
 
-## 🚀 Features
+## Features
 
 - **Natural Language Processing**: Ask questions in plain English
 - **Intelligent SQL Generation**: Automatically converts questions to accurate SQL queries
@@ -20,7 +20,7 @@ AtliQ Tees is a t-shirt store management system where store managers can ask que
 - **User-friendly Interface**: Clean Streamlit web application
 - **Multi-brand Support**: Handles Adidas, Nike, Van Heusen, and Levi's inventory
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **LLM**: Google Palm
 - **Embeddings**: Hugging Face
@@ -30,16 +30,16 @@ AtliQ Tees is a t-shirt store management system where store managers can ask que
 - **Database**: MySQL
 - **Learning Approach**: Few-shot learning
 
-## 🏗️ Architecture 
+## Architecture 
 <img src="https://github.com/user-attachments/assets/e91d4597-5ab1-4906-a404-a1220b949e06" alt="System Architecture Diagram" width="600"/>
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - MySQL Server
 - Google API Key (from [Google MakerSuite](https://makersuite.google.com))
 
-## ⚡ Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -80,7 +80,7 @@ Try asking these questions in the application:
 - "What's the total price of inventory for all S-size t-shirts?"
 - "How much sales will we generate if we sell all small size Adidas shirts after discounts?"
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 langchain_genai_retail/
@@ -94,7 +94,7 @@ langchain_genai_retail/
 └── README.md
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 - `GOOGLE_API_KEY`: Your Google Palm API key
@@ -102,7 +102,7 @@ langchain_genai_retail/
 ### Database Configuration
 Ensure your MySQL server is running and accessible. Update database connection parameters in `langchain_helper.py` if needed.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -110,13 +110,13 @@ Ensure your MySQL server is running and accessible. Update database connection p
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 🎉 Acknowledgments
+## Acknowledgments
 
 - Built with [LangChain](https://langchain.com/)
 - Powered by [Google Palm](https://ai.google.dev/)
 - UI created with [Streamlit](https://streamlit.io/)
 
-## 📚 Learning Resources
+## Learning Resources
 
 This project was developed by following the comprehensive LangChain tutorial series from **Codebasics**:
 - **Tutorial Repository**: [https://github.com/codebasics/langchain](https://github.com/codebasics/langchain)
