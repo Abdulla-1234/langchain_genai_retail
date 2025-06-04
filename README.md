@@ -43,7 +43,8 @@ AtliQ Tees is a t-shirt store management system where store managers can ask que
 
 ### 1. Clone the Repository
 ```bash
-https://github.com/Abdulla-1234/langchain_genai_retail.git
+
+git clone https://github.com/Abdulla-1234/langchain_genai_retail.git
 cd langchain_genai_retail
 ```
 
